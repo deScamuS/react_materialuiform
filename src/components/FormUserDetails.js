@@ -18,8 +18,8 @@ export class FormUserDetails extends React.Component {
           <AppBar title='Enter User Details' />
           <TextField
             hintTex='Enter your First Name'
-            floatingLabelText='first Name '
-            onChange={this.props.handleChange("firstname")}
+            floatingLabelText='First Name '
+            onChange={this.props.handleChange("firstName")}
             defaultValue={values.firstName}
           />
           <br />
@@ -53,5 +53,5 @@ const styles = {
   button: {
     margin: 15
   }
-}; 
+};
 export default FormUserDetails;

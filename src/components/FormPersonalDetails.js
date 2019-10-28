@@ -42,7 +42,7 @@ export class FormPersonalDetails extends React.Component {
             onChange={this.props.handleChange("bio")}
             defaultValue={values.bio}
           />
-          <br />
+          <br/>
           <RaisedButton
             label='continue'
             primary={true}
